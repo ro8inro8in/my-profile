@@ -12,9 +12,7 @@ body {
 div {
     color: rgb(107, 107, 107);
     text-align:center;
-    font:helvetica;
-    
-
+    font:helvetica; 
 }
 img {
   display: block;
@@ -28,16 +26,12 @@ footer {
     text-align:center;
 }
 ul {
-    display: center;
-    list-style-position: inside;
-
-    
+    text-align:center;
+    list-style-position:relative; 
 }
-    
-    
-
-
-
+button {
+    text-align: center;
+}
 </style>    
 </head>
 <body>
@@ -68,8 +62,19 @@ ul {
     </ul>
 <button class="button button1">home</button><br>
     </article>
+ <div> 
+    <input type=”text” id=”txtName” placeholder=”Enter Name” /> <br>
 
-<br><footer>Foot note to my documet (Audio devlopment Robin Edwards contact via email robinedwardsaudio@gmail.com)</footer>
+<input type=”text” id=”txtMobile” placeholder=”Enter Mobile” /> <br>
+
+<input type=”text” id=”txtSubject” placeholder=”Enter Subject” /> <br>
+
+<textarea id="txtMessage" rows="10" cols="10" placeholder="your message"></textarea> <br>
+
+<input type=”button” value=”Save” id=”btnSave” />
+</div>  
+
+<br><footer>Foot note to my documet (Audio devlopment Robin Edwards contact via <a href = "mailto:robinedwardsaudio@gmail.com">e-mail</a>)</footer>
     
 </body>
 </html>
