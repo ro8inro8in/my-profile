@@ -1,0 +1,76 @@
+h1 {
+    width: auto; 
+    padding: 10px;
+    margin: auto;
+    text-align: left;
+    color: black;
+    background-color: pink;
+    
+}
+h2 {
+    text-align: center;
+    width: auto; 
+    padding: 40px;
+    margin: auto;
+    text-align: center;
+    background-color: pink;
+   
+}
+.box {
+    border: 2px solid black;
+    max-width: auto;
+    background-color: pink;
+    margin: auto;
+    padding: 5px;
+    text-align: center; 
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+}
+a:hover {
+    color: royalblue;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+  }
+article{ 
+    text-align: center;
+    width: auto;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+    background-color: pink;
+    
+}
+form {
+    text-align: center;
+}
+footer{
+    text-align: center;
+    font-size: small;
+}
+.list {
+    max-width: auto;
+    background-color: pink;
+    margin: auto;
+    padding: 5px;
+    display: inline-block;
+    text-align:left;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color:rgb(255, 218, 224);
+}
+.comment {
+    width: 40%;
+    height: 100px;
+    padding: 10px;
+    background-color: #d0e2bc;
+}
