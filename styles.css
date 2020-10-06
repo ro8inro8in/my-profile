@@ -1,76 +1,48 @@
-h1 {
-    width: auto; 
-    padding: 10px;
-    margin: auto;
-    text-align: left;
-    color: black;
-    background-color: pink;
-    
-}
-h2 {
-    text-align: center;
-    width: auto; 
-    padding: 40px;
-    margin: auto;
-    text-align: center;
-    background-color: pink;
-   
-}
-.box {
-    border: 2px solid black;
-    max-width: auto;
-    background-color: pink;
-    margin: auto;
-    padding: 5px;
-    text-align: center; 
-    display: flex;
-    justify-content: space-evenly;
-    color: black;
-}
-a:hover {
-    color: royalblue;
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    
+  * {
+    box-sizing: border-box; 
   }
-article{ 
-    text-align: center;
-    width: auto;
-    padding: 5px;
-    margin: auto;
-    text-align: center;
-    background-color: pink;
-    
-}
-form {
-    text-align: center;
-}
-footer{
-    text-align: center;
-    font-size: small;
-}
-.list {
-    max-width: auto;
-    background-color: pink;
-    margin: auto;
-    padding: 5px;
-    display: inline-block;
-    text-align:left;
+  #header-background{
+    width:100%;
+    height:100%;
+    background:url("https://user-images.githubusercontent.com/70481621/94863507-77d11880-0432-11eb-9701-a70ff697bff7.jpg");
+    opacity: 0.5;
+    height: 20vh;
+  }
+  body {
     display: flex;
-    justify-content: center;
-}
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    background: beige;
+  }
+  #main {
+    display: flex;
+    flex: 1;
+  }
+  #main > article {
+    flex: 1;
+    order: 1;
+  }
+  .img{
+    
+    align-items: center;
+  }
+  #main > nav{
+    flex: 0 0 10vw;
+    background: beige;
+  }
+  .box> nav {
+    background:beige;
+    order: 3;
+  }
 
-body {
-    background-color:rgb(255, 218, 224);
-}
-.comment {
-    width: 40%;
-    height: 100px;
-    padding: 10px;
-    background-color: #d0e2bc;
-}
+  header{
+    color:black;
+  }
+  footer{
+    background: beige;
+    height: 05vh;
+  }
+  header, footer, article, nav, aside {
+    padding: 1em;
+  }
