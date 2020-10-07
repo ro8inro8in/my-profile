@@ -1,12 +1,12 @@
   * {
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif; 
   }
   #header-background{
     width:100%;
     height:100%;
-    background:url("https://user-images.githubusercontent.com/70481621/94863507-77d11880-0432-11eb-9701-a70ff697bff7.jpg");
-    opacity: 0.5;
-    height: 20vh;
+    position: relative;
+    background:url("https://user-images.githubusercontent.com/70481621/94863507-77d11880-0432-11eb-9701-a70ff697bff7.jpg") 
   }
   body {
     display: flex;
@@ -14,6 +14,7 @@
     flex-direction: column;
     margin: 0;
     background: beige;
+    
   }
   #main {
     display: flex;
@@ -23,9 +24,8 @@
     flex: 1;
     order: 1;
   }
-  .img{
-    
-    align-items: center;
+ .img > article {
+    width: 100%;
   }
   #main > nav{
     flex: 0 0 10vw;
@@ -35,9 +35,16 @@
     background:beige;
     order: 3;
   }
-
-  header{
+ 
+ .head{
     color:black;
+    background:rgba(245, 245, 220, 0.521);
+    width: 50%;
+    height: auto;
+    padding: 2px;
+    
+   
+
   }
   footer{
     background: beige;
